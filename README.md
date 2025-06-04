@@ -12,7 +12,9 @@ Features:
 - One-time claim only - Players can only claim once per character
 - Configurable items - Easily customize what items players receive
 - ESX Compatible - Works with the latest ESX framework
-- ox_inventory Integration - Full compatibility with ox_inventory
+- QBCore Compatible - Works with the latest QBCore framework
+- ox_inventory/ Integration - Full compatibility with ox_inventory
+- QB_inventory/ Integration - Full compatibility with QB_inventory
 - Inventory space checking - Prevents claiming if not enough space
 - Database tracking - Tracks claims in MySQL database
 - Customizable command - Change the command name in config
@@ -27,7 +29,6 @@ Restart your server
 
 ## Dependencies:
 
-es_extended - ESX Framework
 oxmysql - MySQL wrapper
 ox_inventory - Inventory system
 ox_lib - For notifications (optional)
